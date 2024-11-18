@@ -1790,17 +1790,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"seejesus-shopify-transfer-bookmarklet@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "seejesus-shopify-transfer-bookmarklet@workspace:."
-  dependencies:
-    eslint: "npm:^9.15.0"
-    globals: "npm:^15.12.0"
-    terser: "npm:^5.36.0"
-    vite: "npm:^5.4.11"
-  languageName: unknown
-  linkType: soft
-
 "semver@npm:^7.3.5":
   version: 7.6.3
   resolution: "semver@npm:7.6.3"
@@ -1825,6 +1814,17 @@ __metadata:
   checksum: 10c0/1dbed0726dd0e1152a92696c76c7f06084eb32a90f0528d11acd764043aacf76994b2fb30aa1291a21bd019d6699164d048286309a278855ee7bec06cf6fb690
   languageName: node
   linkType: hard
+
+"shopify-transfer-bookmarklet@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "shopify-transfer-bookmarklet@workspace:."
+  dependencies:
+    eslint: "npm:^9.15.0"
+    globals: "npm:^15.12.0"
+    terser: "npm:^5.36.0"
+    vite: "npm:^5.4.11"
+  languageName: unknown
+  linkType: soft
 
 "signal-exit@npm:^4.0.1":
   version: 4.1.0
