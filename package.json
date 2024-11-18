@@ -1,5 +1,6 @@
 {
-  "name": "seejesus-shopify-transfer-bookmarklet",
+  "name": "shopify-transfer-bookmarklet",
+  "version": "1.0.0",
   "packageManager": "yarn@4.5.1",
   "devDependencies": {
     "eslint": "^9.15.0",
@@ -8,7 +9,7 @@
     "vite": "^5.4.11"
   },
   "scripts": {
-    "build": "vite build"
+    "build": "COMPILED=$(terser src/bookmarklet.js --format quote_style=1 --ecma 2018 --compress --mangle --toplevel) && envsubst < ./src/README.md > ./README.md"
   },
   "type": "module"
 }

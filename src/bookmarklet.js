@@ -1,5 +1,5 @@
-(function () {
-    // Add header column
+// Add header column
+(() => {
     const headerRow = document.querySelector(
         "table.Polaris-DataTable__Table thead tr",
     );
