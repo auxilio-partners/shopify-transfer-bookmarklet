@@ -1,5 +1,8 @@
 {
   "name": "shopify-transfer-bookmarklet",
+  "description": "Use this bookmarklet to print Shopify transfer orders with product images.",
+  "private": true,
+  "license": "none",
   "version": "1.0.0",
   "packageManager": "yarn@4.5.1",
   "devDependencies": {
