@@ -4,7 +4,7 @@ Use this bookmarklet to print Shopify transfer orders with product images.
 
 ## Installing the bookmarklet
 
-Show your browser's Boomkarks Bar, and then drag the link below to the bar to
+Show your browser’s Boomkarks Bar, and then drag the link below to the bar to
 add the bookmark.
 
 <a href="javascript:${COMPILED}">Print Transfer Order</a>
